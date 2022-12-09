@@ -18,9 +18,9 @@ float floatType;
 
 /* sizeof evaluates the size of a variable */
 printf("Size of a char: %c byte(s)\n", sizeof(charType));
-printf("Size of an int: %d byte(s)\n", sizeof(intType));
-printf("Size of a long int: %ld byte(s)\n", sizeof(longInt));
-printf("Size of a long long: %lld byte(s)\n", sizeof(longlongInt));
+printf("Size of an int: %i byte(s)\n", sizeof(intType));
+printf("Size of a long int: %li byte(s)\n", sizeof(longInt));
+printf("Size of a long long int: %lli byte(s)\n", sizeof(longlongInt));
 printf("Size of a float: %f byte(s)\n", sizeof(floatType));
 
 return (0);
