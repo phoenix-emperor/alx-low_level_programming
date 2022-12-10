@@ -10,18 +10,18 @@
 
 int main(void)
 {
-char charType;
-int intType;
-long longInt;
-long long longlongInt;
-float floatType;
+int size_of_char = sizeof(char);
+int size_of_int = sizeof(int);
+int size_of_long_int = sizeof(long);
+int size_of_long_long_int = sizeof(long long);
+int size_of_float = sizeof(float);
 
 /* sizeof evaluates the size of a variable */
-printf("Size of a char: %c byte(s)\n", sizeof(charType));
-printf("Size of an int: %i byte(s)\n", sizeof(intType));
-printf("Size of a long int: %li byte(s)\n", sizeof(longInt));
-printf("Size of a long long int: %lli byte(s)\n", sizeof(longlongInt));
-printf("Size of a float: %f byte(s)\n", sizeof(floatType));
+printf("Size of a char: %d byte(s)\n", size_of_char);
+printf("Size of an int: %d byte(s)\n", size_of_int);
+printf("Size of a long int: %d byte(s)\n", size_of_long_int);
+printf("Size of a long long int: %d byte(s)\n", size_of_long_long_int);
+printf("Size of a float: %d byte(s)\n", size_of_float);
 
 return (0);
 
