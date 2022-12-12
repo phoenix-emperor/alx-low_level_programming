@@ -6,10 +6,10 @@
  * Return: Always 0 (Success)
  */
 
-int main()
+int main(void)
 {
 char alpha;
-char new_line;    
+char new_line;
 new_line = '\n';
 
 for (alpha = 'a'; alpha <= 'z'; alpha++)
