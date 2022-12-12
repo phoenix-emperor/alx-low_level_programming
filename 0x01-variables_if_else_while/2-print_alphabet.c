@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * Main - Entry Point
+ * main - Entry Point
  * This program uses putchar to print out letters a-z.
  *
  * Return: Always 0 (Success)
