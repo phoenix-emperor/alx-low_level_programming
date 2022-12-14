@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * prints '_putchar'
+ * prints _putchar
  *
  * Return: 0 (Always success)
  */
@@ -21,4 +21,3 @@ _putchar('\n');
 
 return (0);
 }
-
