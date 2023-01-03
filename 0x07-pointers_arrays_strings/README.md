@@ -1,0 +1,1 @@
+readmer for pointers and arrays
